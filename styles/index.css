@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap");
+
+* {
+	font-family: Quicksand !important;
+}
+
+/* Customizing ScrollBar */
+
+::-webkit-scrollbar {
+	width: 0.5em;
+	background: transparent;
+	cursor: pointer !important;
+	z-index: 0;
+}
+
+::-webkit-scrollbar-track {
+	background: #4a5162;
+	cursor: pointer !important;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #9a97fc;
+	outline: none;
+	cursor: pointer !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	cursor: pointer !important;
+}
+
+.ce-chat-title {
+	background: #4a5162 !important;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "new",
+  "version": "0.1.0",
+  "proxy": "https://api.chatengine.io/",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "next": "^11.0.0",
+    "react": "17.0.2",
+    "react-chat-engine": "^1.11.28",
+    "react-dom": "17.0.2"
+  },
+  "description": "<img      src=\"https://raw.githubusercontent.com/alamorre/nextjs-chat-app/main/assets/nextjs-chat-tutorial.png\"      width=\"75%\"      height=\"100%\" />",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
